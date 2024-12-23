@@ -6,8 +6,8 @@ on:
     - cron: 0 18 * * *
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://git.openwrt.org/openwrt/openwrt.git
+  REPO_BRANCH: v23.05.5
   CONFIG_FILE: configs/rockchip.config
   EXTRA_CONFIG: configs/extra.config
   DIY_SCRIPT: diy-script.sh
